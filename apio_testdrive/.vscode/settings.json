@@ -1,0 +1,8 @@
+
+{
+    "verilog.linting.linter": "iverilog",
+    "verilog.linting.iverilog.includePath": ["${workspaceFolder}"],
+    "verilog.linting.iverilog.runAtFileLocation": false,
+    "ctags-companion.command": "ctags -R --fields=+nKz -f .vscode/.tags --langmap=SystemVerilog:+.v -R rtl /opt/uvm-1.2/src",
+    "ctags-companion.readtagsEnabled": true,
+}

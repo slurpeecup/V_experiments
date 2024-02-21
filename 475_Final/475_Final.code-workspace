@@ -1,0 +1,14 @@
+{
+	"folders": [
+		{
+			"path": "."
+		}
+	],
+	"settings": {
+		"verilog.linting.linter": "iverilog",
+		"verilog.linting.iverilog.includePath": [
+			"${workspaceFolder}"
+		],
+		"verilog.linting.iverilog.runAtFileLocation": false
+	}
+}
